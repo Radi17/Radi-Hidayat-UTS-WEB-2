@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTS Pemrograman Web</title>
+  </head>
+  <body>
+    <form action="save.php" method="post">
+      <label for="wilayah">Nama Wilayah</label>
+      <select name="wilayah" id="wilayah">
+        <option value="DKI Jakarta">DKI Jakarta</option>
+        <option value="Jawa Barat">Jawa Barat</option>
+        <option value="Banten">Banten</option>
+        <option value="Jawa Tengah">Jawa Tengah</option>
+      </select>
+      <br />
+      <label for="positif">Jumlah Positif</label>
+      <input type="number" name="positif" id="positif" />
+      <br />
+      <label for="positif">Jumlah Dirawat</label>
+      <input type="number" name="dirawat" id="dirawat" />
+      <br />
+      <label for="sembuh">Jumlah Sembuh</label>
+      <input type="number" name="sembuh" id="sembuh" />
+      <br />
+      <label for="meninggal">Jumlah Meninggal</label>
+      <input type="number" name="meninggal" id="meninggal" />
+      <br />
+      <label for="nama">Nama Operator</label>
+      <input type="text" name="nama" id="nama" />
+      <br />
+      <label for="nim">NIM</label>
+      <input type="text" name="nim" id="nim" />
+      <br />
+      <button type="submit" name="simpan" value="1">Simpan</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
